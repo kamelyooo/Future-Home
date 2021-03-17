@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:id="@+id/scrollViewHome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carouselView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:fillColor="#FFFFFFFF"
+                app:pageColor="#00000000"
+                app:radius="6dp"
+                app:slideInterval="3000"
+                app:strokeColor="#FF777777"
+                app:strokeWidth="1dp" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/ImageReceptions"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="6dp"
+                android:scaleType="fitXY"
+                app:riv_border_width="2dip"
+                app:riv_border_color="#333333"
+                app:riv_corner_radius="10dp"
+                app:riv_oval="false" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/receptions"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageCorridors"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="6dp"
+                android:scaleType="fitXY"
+                app:riv_border_width="2dip"
+                app:riv_border_color="#333333"
+                app:riv_corner_radius="10dp"
+                app:riv_oval="false" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/corridors"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageBedrooms"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="6dp"
+                android:scaleType="fitXY"
+                app:riv_border_width="2dip"
+                app:riv_border_color="#333333"
+                app:riv_corner_radius="10dp"
+                app:riv_oval="false" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/bed_rooms"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageKitchens"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="6dp"
+                android:scaleType="fitXY"
+                app:riv_border_width="2dip"
+                app:riv_border_color="#333333"
+                app:riv_corner_radius="10dp"
+                app:riv_oval="false" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/kitchens"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageBathrooms"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="6dp"
+                android:scaleType="fitXY"
+                app:riv_border_width="2dip"
+                app:riv_border_color="#333333"
+                app:riv_corner_radius="10dp"
+                app:riv_oval="false" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/bathrooms"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageUnitsAndLibrary"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="6dp"
+                android:scaleType="fitXY"
+                app:riv_border_width="2dip"
+                app:riv_border_color="#333333"
+                app:riv_corner_radius="10dp"
+                app:riv_oval="false" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/units_and_librarys"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imagelivingrooms"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="6dp"
+                android:scaleType="fitXY"
+                app:riv_border_width="2dip"
+                app:riv_border_color="#333333"
+                app:riv_corner_radius="10dp"
+                app:riv_oval="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/living_rooms"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
+</androidx.constraintlayout.widget.ConstraintLayout>
